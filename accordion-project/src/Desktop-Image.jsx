@@ -13,7 +13,7 @@ export default function DesktopImage() {
                     <img src={shadow} alt="" />
                 </div>
             </div >
-            <img className="absolute z-20 top-[30rem] left-[12rem]" src={box} alt="" />
+            <img className="absolute z-20 top-[33rem] left-[12rem]" src={box} alt="" />
         </>
     )
 }

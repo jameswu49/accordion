@@ -53,7 +53,7 @@ function Questions({ expandArrow, clickedId }) {
                         </p>
                         <img className="cursor-pointer" src={arrow} alt="" onClick={() => expandArrow(question.id)} />
                     </div>
-                    <div className={`${question.id === clickedId ? '' : 'hidden'} px-8 pb-3 text-greyish-blue md:px-0 md:mr-12`}>{question.subtext}</div>
+                    <div className={`${question.id === clickedId ? 'subtext-expanded' : 'subtext-hidden'} px-8 pb-3 text-greyish-blue md:px-0 md:mr-12`}>{question.subtext}</div>
                     <hr className="mx-8 divider md:ml-0 md:mr-12" />
                 </>
             ))}
